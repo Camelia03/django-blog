@@ -33,7 +33,8 @@ DEBUG = os.environ.get('DEVELOPMENT')
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = [
+    "dj-project-think-before-blog-1442fac90c9e.herokuapp.com", "localhost"]
 
 # Application definition
 
